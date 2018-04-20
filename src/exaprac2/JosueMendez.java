@@ -20,8 +20,8 @@ public class JosueMendez {
         // TODO code application logic here
         int menu;
         int emp, horatrab;
-        String nombre="", r;
-        double salhora;
+        String nombre="", r="";
+        double salhora, totalsal;
         
         
         
@@ -38,15 +38,16 @@ public class JosueMendez {
                     nombre = JOptionPane.showInputDialog(null,"Ingrese el nombre del empleado");
                     salhora = Double.parseDouble(JOptionPane.showInputDialog(null,"Ingrese el salario por hora"));
                     horatrab = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la cantidad de horas trabajadas"));
+                    totalsal = salhora*horatrab;
                     
-                    r=JOptionPane.showInputDialog(null,"Nombre "+ nombre +"\n Salario por hora $"+ salhora+ "\n Cantidad de horas" + horatrab);
+                    
+                    r +="\n Nombre "+ nombre +"\n Salario $ "+ totalsal;
                     vectEmp[i]=r;
-                    
-                    JOptionPane.showMessageDialog(null,vectEmp[i]);
                 }
            if(menu == 2){
+               String resultado ="";
                for (int j = 0; j < emp; j++) {
-                   JOptionPane.showMessageDialog(null,vectEmp[j]);
+                   resultado += vectEmp[j];
                    
                    
                }
