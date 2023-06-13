@@ -7,5 +7,68 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "producto":[
+  {
+    "id": 1,
+    "nombre": "Camiseta",
+    "precio": 15.99,
+    "cantidad": 50
+  },
+  {
+    "id": 2,
+    "nombre": "Pantalones",
+    "precio": 29.99,
+    "cantidad": 30
+  },
+  {
+    "id": 3,
+    "nombre": "Zapatos",
+    "precio": 49.99,
+    "cantidad": 20
+  },
+  {
+    "id": 4,
+    "nombre": "Bolígrafo",
+    "precio": 1.99,
+    "cantidad": 100
+  },
+  {
+    "id": 5,
+    "nombre": "Libreta",
+    "precio": 4.99,
+    "cantidad": 80
+  },
+  {
+    "id": 6,
+    "nombre": "Cámara",
+    "precio": 199.99,
+    "cantidad": 10
+  },
+  {
+    "id": 7,
+    "nombre": "Teléfono",
+    "precio": 599.99,
+    "cantidad": 5
+  },
+  {
+    "id": 8,
+    "nombre": "Televisor",
+    "precio": 899.99,
+    "cantidad": 3
+  },
+  {
+    "id": 9,
+    "nombre": "Mesa",
+    "precio": 129.99,
+    "cantidad": 2
+  },
+  {
+    "id": 10,
+    "nombre": "Silla",
+    "precio": 79.99,
+    "cantidad": 4
   }
+]
+
 }
